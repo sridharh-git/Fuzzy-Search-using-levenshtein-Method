@@ -5,7 +5,7 @@ from fuzzywuzzy import process
 import time
 ```
 
-Function lookupStr takes a semi-colon separated provider row and returns Key to use for dict. 
+Function lookupStr takes a semi-colon separated provider row and returns Key to use for dict.
 Key = first Char Last Name + First Char First Name
 Ex: 1962405183;FOX;DANIEL;2240 SUTHERLAND AVE;STE 107;KNOXVILLE;TN;379192333;2085R0202X ==> FD
 
